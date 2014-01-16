@@ -1,0 +1,16 @@
+Todo: 
+Write functions to calculate validity of moves
+     Saved in "moves.au3"
+
+User interaction beyond moving cursor
+     Space to select tiles
+     Ctrl-N to do new game
+     Menu bar (File:New|Save|Save As...|Open.../Help:Help...|About...)
+
+File format auto-associated with program
+     Possibly just 2 bytes for number of tiles (X and Y), followed by a series of 2's, 3's and 4's represnting different
+      stone colors
+     Most likely .BL - 'B'ox-Off 'L'ayout
+
+Fortunately, it always seems to generate an even number of each color
+
