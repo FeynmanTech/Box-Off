@@ -14,3 +14,14 @@ File format auto-associated with program
 
 Fortunately, it always seems to generate an even number of each color
 
+===========================================================================================================================
+
+Known Bugs:
+Flickering on each update
+     It may be possible to reduce flickering by only drawing tiles that actually changed appearance (usually just the 
+      previous cursor position and the new cursor position)
+
+Delay of each cursor move by one
+     I.e. each time a key is pressed, it moves the cursor according to which hotkey was pressed before the most recent 
+      press
+     No known fix
